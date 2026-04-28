@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1777281885.1402 "out/繰数2_点と座標.dvi" "out/繰数2_点と座標.pdf" "out/繰数2_点と座標" 1777281885.272 0
-  "out/繰数2_点と座標.dvi" 1777281885.0874 5348 fd70e003418743b8cdc6f46e87625310 "latex"
+["dvipdf"] 1777356970.179 "out/temp.dvi" "out/temp.pdf" "out/temp" 1777356970.37659 0
+  "out/temp.dvi" 1777356970.07515 14492 a48bc1883bbeab2689790cd60a847afe "latex"
   (generated)
-  "out/繰数2_点と座標.pdf"
+  "out/temp.pdf"
   (rewritten before read)
-["latex"] 1777281884.26362 "繰数2_点と座標.tex" "out/繰数2_点と座標.dvi" "繰数2_点と座標" 1777281885.26865 0
+["latex"] 1777356969.17613 "temp.tex" "out/temp.dvi" "temp" 1777356970.37014 0
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/jlreq/ujlreq-v.tfm" 1707868109 2640 0acdedaeb9526b53015e577788c90ac5 ""
@@ -57,10 +57,10 @@
   "/usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/usr/local/texlive/2026/texmf-var/web2c/euptex/uplatex.fmt" 1776880512 2381188 e68cd5fc7b5e62ecbef385e5eaa54edc ""
   "/usr/local/texlive/2026/texmf.cnf" 1776879967 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "out/繰数2_点と座標.aux" 1777281885.0833 675 b6c3b420bd8460b06b07e3b768fa7f3f "latex"
-  "繰数2_点と座標.tex" 1777281882.88518 3802 f63efe431546523093a4c09aae9971d9 ""
+  "out/temp.aux" 1777356970.06743 736 c64fe25522f3867f2b9ec151c43b7bb3 "latex"
+  "temp.tex" 1777356966.2865 5408 5b91268d640770432722f60ea67bb5cc ""
   (generated)
-  "out/繰数2_点と座標.aux"
-  "out/繰数2_点と座標.dvi"
-  "out/繰数2_点と座標.log"
+  "out/temp.aux"
+  "out/temp.dvi"
+  "out/temp.log"
   (rewritten before read)
