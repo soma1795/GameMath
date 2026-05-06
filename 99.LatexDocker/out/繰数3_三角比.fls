@@ -4,8 +4,8 @@ INPUT /usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2026/texmf-var/web2c/euptex/uplatex.fmt
-INPUT temp.tex
-OUTPUT out/temp.log
+INPUT 繰数3_三角比.tex
+OUTPUT out/繰数3_三角比.log
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/jlreq/jlreq.cls
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/jlreq/jlreq.cls
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty
@@ -71,10 +71,10 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT out/temp.aux
-INPUT out/temp.aux
-INPUT out/temp.aux
-OUTPUT out/temp.aux
+INPUT out/繰数3_三角比.aux
+INPUT out/繰数3_三角比.aux
+INPUT out/繰数3_三角比.aux
+OUTPUT out/繰数3_三角比.aux
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/jlreq/ujlreq-v.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/jlreq/ujlreq.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
@@ -105,5 +105,7 @@ INPUT /usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/lm/lmex10.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/jlreq/ujlreq.tfm
 INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/jlreq/ujlreq.tfm
-OUTPUT out/temp.dvi
-INPUT out/temp.aux
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/jlreq/ujlreq-v.tfm
+INPUT /usr/local/texlive/2026/texmf-dist/fonts/tfm/public/jlreq/ujlreq-v.tfm
+OUTPUT out/繰数3_三角比.dvi
+INPUT out/繰数3_三角比.aux
