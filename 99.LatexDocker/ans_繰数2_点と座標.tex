@@ -1,0 +1,70 @@
+%【紙面設定】
+%b4,横書き,2段
+\documentclass[paper=b4j,landscape,twocolumn,fleqn]{jlreq}
+\special{papersize=\the\paperwidth,\the\paperheight}
+\setlength{\columnseprule}{0.4pt}
+\pagestyle{empty}
+\usepackage[margin=10truemm]{geometry}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{amsmath}
+\ModifyHeading{section}{lines=1}
+
+%【本文】
+\begin{document}
+\section{中点 解答}
+点A(2,3),点B(-2,1),点C(4,-9),点D(-4,-1)
+\begin{align*}
+&1.\ (0,2)\\
+&2.\ (3,-3)\\
+&3.\ (-1,1)\\
+&4.\ (1,-4)\\
+&5.\ (0,-5)\\
+&6.\ \left(\frac{4}{3},-\frac{5}{3}\right)\\
+&7.\ \left(-\frac{2}{3},-3\right)\\
+&8.\ \left(0,-\frac{3}{2}\right)
+\end{align*}
+
+\section{2点間の距離 解答}
+\begin{align*}
+&1.\ 2\sqrt{5}\\
+&2.\ 2\sqrt{34}\\
+&3.\ 8\sqrt{2}\\
+&4.\ 7\\
+&5.\ \sqrt{29}\\
+&6.\ \frac{2\sqrt{65}}{3}\\
+&7.\ \frac{2\sqrt{97}}{3}\\
+&8.\ \frac{3}{2}
+\end{align*}
+
+\newpage
+\section{2点間の移動 解答}
+(1秒あたりの移動量)
+\begin{align*}
+&1.\ (-2,-1)\\
+&2.\ \left(\frac{1}{2},-3\right)\\
+&3.\ (-3,-2)\\
+&4.\ \left(\frac{3}{2},-\frac{5}{2}\right)\\
+&5.\ (-1,-1)\\
+&6.\ (-2,2)\\
+&7.\ (2,1)\\
+&8.\ \left(-\frac{1}{2},3\right)
+\end{align*}
+
+\section{円の当たり判定1 解答}
+\begin{align*}
+&1.\ |AB|=\sqrt{45}=3\sqrt{5}>1+2=3\ \Rightarrow\ \text{当たらない}\\
+&2.\ |AC|=\sqrt{2}<1+3=4\ \Rightarrow\ \text{当たる。必要移動量}=4-\sqrt{2}
+\end{align*}
+
+\section{円の当たり判定2 解答}
+\begin{align*}
+&3.\ \text{Aの必要総移動}=4\ \Rightarrow\ 1\text{秒あたり }(2,0)\\
+&4.\ \text{Bの必要総移動}=4\ \Rightarrow\ 1\text{秒あたり }(1,0)
+\end{align*}
+
+\section{円の当たり判定の一般化 解答}
+\begin{align*}
+&1.\ \sqrt{(a-c)^2+(b-d)^2}\le r+R\\
+&2.\ (a-c)^2+(b-d)^2\le (r+R)^2
+\end{align*}
+\end{document}
